@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nokepon</title>
+    <title>Mokepon</title>
     <link rel="stylesheet" href="estilos.css">
     <script src="funciones.js"></script>
 </head>
@@ -12,7 +12,7 @@
         
     </header>
     <section id="seccion-mascota">
-        <h1 class="titulo">Nokepon</h1>
+        <h1 class="titulo">Mokepon</h1>
         <h2 class="subtitulo">Escoje tu mascota</h2>
 
         <div class="tarjetas">
@@ -40,24 +40,33 @@
     </section>
 
     <section id="seccion-ataque">
-        <h1>Nokepon🔥💧🌱</h1>
-        <h2>Elije un ataque:</h2>
-        <p>Tu mascota <span id="nombreMascota"></span> tiene <span id="vidas-mascota">3</span> vidas</p>
-        <p>La mascota <span id="nombre-enemigo"></span>de tu enemigo tiene <span id="vidas-enemigo">3</span> vidas</p>
+        <h1 class="titulo">Mokepon</h1>
+        <h2 class="subtitulo">Escoje tu ataque</h2>
+        <div>
+            <button id="boton-fuego" class="boton-de-ataque">Fuego 🔥</button>
+            <button id="boton-agua" class="boton-de-ataque">Agua 💧</button>
+            <button id="boton-tierra" class="boton-de-ataque">Tierra 🌱</button>
+        </div>
 
-        <p>
-            <button id="boton-fuego">Fuego 🔥</button>
-            <button id="boton-agua">Agua 💧</button>
-            <button id="boton-tierra">Tierra 🌱</button>
-        </p>
-    </section>
+        <div>
+            <section id="mensajes">
+        
+            </section>
+        
+            <section id="reiniciar">
+                <button id="boton-reiniciar">Reiniciar</button>
+            </section>
+        </div>
 
-    <section id="mensajes">
+        <div>
+            <p>Tu mascota <span id="nombreMascota"></span> tiene <span id="vidas-mascota">3</span> vidas</p>
+            <p>La mascota <span id="nombre-enemigo"></span>de tu enemigo tiene <span id="vidas-enemigo">3</span> vidas</p>
+        </div>
+        
+
         
     </section>
 
-    <section id="reiniciar">
-        <button id="boton-reiniciar">Reiniciar</button>
-    </section>
+    
 </body>
 </html>

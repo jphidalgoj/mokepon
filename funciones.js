@@ -27,7 +27,7 @@ function seleccionarMascota(){
     seccionMascota.style.display="none";
 
     let seccionAtaque=document.querySelector("#seccion-ataque");
-    seccionAtaque.style.display="block";
+    seccionAtaque.style.display="flex";
 
     let hipodogue=document.querySelector("#hipodogue");
     let capipepo=document.querySelector("#capipepo");
